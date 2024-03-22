@@ -42,7 +42,7 @@ public class OrderServiceImpl implements OrderService {
 
 	    @PostConstruct
 	    public void initializeRazorpayClient() throws RazorpayException {
-	        client = new RazorpayClient(razorpayApiKey, "2i8MOwkmwCDQaE4gu24J3K7h");
+	        client = new RazorpayClient(razorpayApiKey, "secrate");
 	    }
 	
 	@Override
